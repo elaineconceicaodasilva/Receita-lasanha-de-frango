@@ -1,0 +1,8 @@
+@font-face {
+  font-family: playfair;
+  src: url(./components/fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./components/fonts/Montserrat-Italic.ttf);
+}

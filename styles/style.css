@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 587px;
+  height: 25px;
+  left: 236px;
+  margin: 25px;
+  font-family: playfair;
+  font-style: normal;
+  font-weight: 700;
+}
+
+container-main {
+  display: flex;
+}
+
+.container-subtitulo {
+  translate: 115px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.main-img {
+  translate: 100px;
+  width: 0px;
+  height: 3px;
+  left: 6px;
+  top: 0px;
+}
