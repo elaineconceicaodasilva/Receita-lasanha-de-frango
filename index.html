@@ -8,57 +8,260 @@
     <title>Receita de lasanha de frango</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/font.css">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <div class="title">
-            <h1> Receita de Lasanha De Frango</h1>
-        </div>
+    <div class="container-todo">
+        <header>
 
-    </header>
-
-    <main>
-
-        <div class="container-main">
-            <div class="main-img"><img src="/icons/6dots.svg" alt="ellipse">
+            <div class="title">
+                <h1> Receita de Lasanha De Frango</h1>
             </div>
-            <h2 class="container-subtitulo">
-                Uma travessa de lasanha é presente para a família toda e pode marcar qualquer data especial, por
-                isso é
-                tão
-                reconhecida
-                como uma receita familiar! Aproveite então essa aqui!
-            </h2>
 
-            <div class="container-img"><img src="/components/img/lasanha-de-frango.jpeg" alt="img" width="400px">
+        </header>
+
+        <main>
+
+            <div class="container-main">
+                <div class="main-img"><img src="/svgs/6dots.svg" alt="ellipse">
+                </div>
+                <h2 class="container-subtitulo">
+                    Uma travessa de lasanha é presente para a família toda e pode marcar qualquer data especial, por
+                    isso é
+                    tão
+                    reconhecida
+                    como uma receita familiar! Aproveite então essa aqui!
+                </h2>
+
+                <div class="container-img"><img src="/components/img/lasanha-de-frango.jpeg" alt="img" width="80%"
+                        height="100%">
+                </div>
             </div>
-        </div>
-        <div class="container-ingredientes">
-            <h3> Ingredientes </h3>
-            <p> Verduras </p>
+            <div class="container-h3">
+                <h3> Ingredientes </h3>
+            </div>
             <br>
+            <form action="">
+                <p> Verduras </p>
+                <ul class="confirmaçao">
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> Cheiro-verde e louro</b> a gosto</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label><b>2 xícaras (chá)</b> de água</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 lata</b> de molho de tomate</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 2 colheres (sobremesa)</b> de óleo de soja</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label><b> Sal e pimenta-do-reino moída</b> a gosto</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b>1 unidade</b> de cebola picada</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 4 unidades</b> de tomate sem pele e sem semente</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 unidade</b> de peito de frango</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 tablete</b> de caldo de legumes</label>
+                    </li>
+                </ul>
+            </form>
 
-            <input type="checkbox" value="selecionar">
-            <p id="checkbox1"> Cheiro-verde e louro a gosto</p>
-            <br><br>
+            <form action="">
+                <h4>Molho</h4>
 
-            <input type="checkbox" value="selecionar">
-            <p id="checkbox2"> 2 xícaras (chá) de água</p>
-            <br><b><br>
+                <ul class="confirmaçao2">
+                    <li>
+                        <input type="checkbox">
+                        <label> <b>2 colheres (sobremesa)</b> de amido de milho</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 unidade</b> de cebola ralada</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 4 xícaras (chá)</b> de leite</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b>1 colher (sopa)</b> de manteiga</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 lata</b> de creme de leite</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> Sal</b> a gosto</label>
+                    </li>
+                    <br>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b>Pimenta-do-reino</b> em grãos moída a gosto</label>
+                    </li>
+                </ul>
 
-                <input type="checkbox" value="selecionar">
-                <p id="checkbox3"> 1 lata de molho de tomate</p>
-                <br><br>
+            </form>
+            <form action="">
+                <h5> Montagem</h5>
+                <ul class="montagem">
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 300 gr</b> de mussarela</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label> <b> 1 pacote de massa</b> de lasanha pré cozida verde ou branca</label>
+                    </li>
+                </ul>
+            </form>
+            <div class="modopreparo">
+                <h6>Como Fazer</h6>
 
-                <input type="checkbox" value="selecionar">
-                <p id="checkbox4"> 2 colheres (sobremesa) de óleo de soja</p>
-                <br><b><br>
+                <div class="icone">
 
-                    <input type="checkbox" value="selecionar">
-                    <p id="checkbox5"> Sal e pimenta-do-reino moída a gosto</p>
-        </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-1-square" viewBox="0 0 16 16">
+                        <path d="M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p><b>Cozinhe o frango</b> com a folha de louro, o caldo de
+                        legumes e
+                        depois de cozido desfie.
+                </div>
+
+                <div class="preparo2">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-2-square" viewBox="0 0 16 16">
+                        <path
+                            d="M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b> Em uma panela</b> refogue a cebola no óleo e vá acrescentando os ingredientes.</p>
+
+                </div>
+
+                <div class="preparo3">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-3-square" viewBox="0 0 16 16">
+                        <path
+                            d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b>Depois deixe-o ferver</b> por uns 20 minutos e coloque o cheiro verde por último.</p>
+
+                </div>
+
+                <p id="molho"> Molho </p>
+                <div class="final">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-4-square" viewBox="0 0 16 16">
+                        <path
+                            d="M7.519 5.057c.22-.352.439-.703.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b> Doure a cebola</b> na manteiga, acrescente uma parte do leite e dissolva o amido
+                        de milho
+                        na outra.</p>
+                </div>
+                <div class="final1">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-5-square" viewBox="0 0 16 16">
+                        <path
+                            d="M7.994 12.158c-1.57 0-2.654-.902-2.719-2.115h1.237c.14.72.832 1.031 1.529 1.031.791 0 1.57-.597 1.57-1.681 0-.967-.732-1.57-1.582-1.57-.767 0-1.242.45-1.435.808H5.445L5.791 4h4.705v1.103H6.875l-.193 2.343h.064c.17-.258.715-.68 1.611-.68 1.383 0 2.561.944 2.561 2.585 0 1.687-1.184 2.806-2.924 2.806Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b> Em seguida,</b> acrescente a mistura na panela, acrescente o sal e a pimenta do reino a
+                        gosto.
+                    </p>
+                </div>
+                <div class="final2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-6-square" viewBox="0 0 16 16">
+                        <path
+                            d="M8.21 3.855c1.612 0 2.515.99 2.573 1.899H9.494c-.1-.358-.51-.815-1.312-.815-1.078 0-1.817 1.09-1.805 3.036h.082c.229-.545.855-1.155 1.98-1.155 1.254 0 2.508.88 2.508 2.555 0 1.77-1.218 2.783-2.847 2.783-.932 0-1.84-.328-2.409-1.254-.369-.603-.597-1.459-.597-2.642 0-3.012 1.248-4.407 3.117-4.407Zm-.099 4.008c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b> Quando abrir fervura,</b> deixe cozinhar por 5 minutos, apague o fogo e acrescente o creme
+                        de leite.</p>
+                </div>
+
+                <div class="fim">
+                    <p> Montagem</p>
+                </div>
+
+                <div class="encerrado">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-7-square" viewBox="0 0 16 16">
+                        <path d="M5.37 5.11V4.001h5.308V5.15L7.42 12H6.025l3.317-6.82v-.07H5.369Z" />
+                        <path
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    </svg>
+                    <p> <b>Vá intercalando,</b> camadas de molho de frango, massa, molho branco e mussarela, até que
+                        acabe todos
+                        os ingredientes,
+                        deixando o molho branco para última camada.</p>
+                </div>
+            </div>
+            <div class="servir">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-8-square" viewBox="0 0 16 16">
+                    <path
+                        d="M10.97 9.803c0 1.394-1.218 2.355-2.988 2.355-1.763 0-2.953-.955-2.953-2.344 0-1.271.95-1.851 1.647-2.003v-.065c-.621-.193-1.33-.738-1.33-1.781 0-1.225 1.09-2.121 2.66-2.121s2.654.896 2.654 2.12c0 1.061-.738 1.595-1.336 1.782v.065c.703.152 1.647.744 1.647 1.992Zm-4.347-3.71c0 .739.586 1.255 1.383 1.255s1.377-.516 1.377-1.254c0-.733-.58-1.23-1.377-1.23s-1.383.497-1.383 1.23Zm-.281 3.645c0 .838.72 1.412 1.664 1.412.943 0 1.658-.574 1.658-1.412 0-.843-.715-1.424-1.658-1.424-.944 0-1.664.58-1.664 1.424Z" />
+                    <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                </svg>
+                <p> <b> Cubra com mussarela</b> e leve ao forno com papel laminado por mais ou menos 30 minutos e sirva
+                    com arroz
+                    branco.</p>
+            </div>
+
+
+    </div>
     </main>
+    </div>
 </body>
 
 </html>
