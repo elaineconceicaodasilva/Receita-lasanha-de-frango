@@ -8,7 +8,6 @@
 .title {
   display: flex;
   justify-content: center;
-  text-decoration: none;
   width: 587px;
   height: 25px;
   left: 236px;
@@ -16,6 +15,7 @@
   font-family: playfair;
   font-style: normal;
   font-weight: 700;
+  line-height: 63.98px;
   color: #000000;
 }
 
@@ -52,21 +52,20 @@ container-main {
 .container-img {
   display: flex;
   justify-content: center;
-  padding: 25px;
-  width: 595px;
-  border-radius: 12px;
+  padding: 20px;
+  width: 650px;
+  border-radius: 20px;
   height: 250px;
 }
 
 .container-h3 {
   font-family: "Playfair Display";
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  height: 10px;
-  line-height: 29px;
-  color: #333333;
-  translate: 110px;
+  font-weight: 700px;
+  font-size: 24px;
+  height: 25px;
+  width: 500px;
+  translate: 100px;
 }
 
 form p {
@@ -74,7 +73,7 @@ form p {
   font-style: italic;
   font-weight: 100;
   font-size: 16px;
-  line-height: 34px;
+  height: 25px;
   translate: 110px;
   color: #333333;
 }
@@ -140,7 +139,7 @@ form h5 {
   height: 45px;
   line-height: 29px;
   color: #333333;
-  translate: 78px;
+  translate: 110px;
 }
 
 .modopreparo p {
@@ -151,7 +150,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .icone {
@@ -164,7 +163,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -180,7 +179,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -194,7 +193,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .preparo3 {
@@ -207,7 +206,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -221,17 +220,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
-}
-
-#molho {
-  font-family: "Playfair Display";
-  font-style: italic;
-  font-weight: 400;
-  font-size: 16px;
-  translate: 110px;
-  line-height: 50px;
-  color: #333333;
+  translate: 29px;
 }
 
 .bi-4-square {
@@ -239,7 +228,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -256,10 +245,10 @@ form h5 {
   font-style: normal;
   width: 528px;
   height: 50px;
-  left: 287px;
+  left: 500px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .final1 {
@@ -272,7 +261,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -286,7 +275,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .final2 {
@@ -299,7 +288,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -313,7 +302,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .fim p {
@@ -336,7 +325,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -350,7 +339,7 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
 }
 
 .servir {
@@ -363,7 +352,7 @@ form h5 {
   height: 26px;
   border-radius: none;
   color: white;
-  translate: 10px;
+  translate: 25px;
   display: block;
   background: #f2994a;
   border-radius: 7px;
@@ -377,5 +366,14 @@ form h5 {
   left: 287px;
   top: 1513px;
   color: #333333;
-  translate: 25px;
+  translate: 29px;
+}
+
+.box {
+  background-color: #f51010;
+  width: 150px;
+  height: 250px;
+  translate: 420px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
